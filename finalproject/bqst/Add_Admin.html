@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Job</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jobs page</title>
+  <!-- render -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- css main file -->
+  <link rel="stylesheet" href="./css/bqst.css" />
+  <!-- font awesome library -->
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <!-- google fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="./index.html"><img class="navbar-img" src="./images/LOGO.png" /></a>
+      <span class="navbar-toggler-icon"></span>
+
+      <div class="navbar-div">
+        <div class="nav-item">
+          <a class="login1" href="../Nish/index.html">Login</a>
+        </div>
+        <div class="nav-item">
+          <a class="signup1" href="../megzo/Registeration.html">SignUp</a>
+        </div>
+        <div class="nav-item">
+          <a class="About" href="./about.html">About</a>
+        </div>
+        <div class="nav-item">
+          <a class="Contact" href="./contact us.html">Contact Us</a>
+        </div>
+      </div>
+      
+    </div>
+  </nav>
+ 
+  <form id="add-job">
+    <h6><span class="addspan">A</span>dd <span class="addspan">J</span>ob</h6>
+    <input class="job-title" id="jobName" placeholder="Job title" />
+    <input class="job-title" id="jobCompany" placeholder="Company" />
+    <input class="job-title" id="jobSalary" placeholder="Salary" />
+    <input class="job-title" id="jobStatus" placeholder="Status" />
+    <input class="job-title" id="jobHours" placeholder="Hours" />
+    <button class="reset">Reset</button>
+    <input type="submit" class="sub1" value="Save" />
+  </form>
+  <div class="overlay"></div>
+  <footer class="footer">
+    &copy;2024 <span>JobNest</span> All Right Reserved
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+  </footer>
+  <script src="./add.js"></script>
+</body>
+</html>

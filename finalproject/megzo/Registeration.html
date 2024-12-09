@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    
+    <!-- normalize -->
+<link rel="stylesheet" href="./css/normalize.css">
+    <!-- font awesome librabry -->
+<link rel="stylesheet" href="./css/all.min.css">
+    <!-- main file css -->
+<link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <nav class="navbar">
+
+        <div class="container">
+            <a href="./index.html"><img class="navbar-img" src="./images/logo3.png"></a>
+            <span class="navbar-toggler-icon"></span>
+
+            <div class="navbar-div">
+                <div class="nav-item">
+                    <a class="login1" href="./index.html">Login</a>
+                </div>
+                <div class="nav-item">
+                    <a class="signup1" href="./Registeration.html">SignUp</a>
+                </div>
+                <div class="nav-item">
+                    <a class="About" href="./about.html">About</a>
+                </div>
+                <div class="nav-item">
+                    <a class="Contact" href="./contact us.html">Contact Us</a>
+                </div>
+            </div>
+            
+        </div>
+    </nav>
+    <form id="signupForm" action="." method="post">
+        <h2> <span>R</span>egisteration</h2>
+        <input type="text" id="name" class="input name" placeholder="Full Name" autofocus required>
+        <input type="email" id="email" class="input email" placeholder="Email" required>
+        <input type="password" id="password" class="input pass" placeholder="Password" required>
+        <input type="password" id="conPassword" class="input confirm" placeholder="Confirm Password" required>
+        <div class="select">
+            <label for="">Register As: </label>
+            <select name="" id="">
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+            </select>
+        </div>
+        <button type="submit" class="signup">Sign Up</button>
+    </form>
+    
+    <footer class="footer">
+        &copy;2024 <span>JobNest</span> All Right Reserved
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <script src="./registeration.js"></script>
+    </footer>
+</body>
+</html>
